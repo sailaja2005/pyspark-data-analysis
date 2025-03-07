@@ -1,4 +1,4 @@
-PySpark Data Analysis
+***PySpark Data Analysis***
 
 
 This repository contains three different PySpark projects focusing on Log Analysis, Movie Ratings Analysis, and Trip Data Analysis. Each project:
@@ -13,7 +13,7 @@ Before running the scripts, install the required dependencies:
 pip install pyspark faker plotly kaleido
 
 
-1. Movie Ratings Analysis
+**Movie Ratings Analysis**
 
    
 This project simulates movie rating data and performs various analytics.
@@ -32,7 +32,7 @@ Analysis Performed
 *Visualize: Users vs. Number of Movies Rated (Histogram)
 
 
-2. Trip Data Analysis
+**Trip Data Analysis**
 
    
 This project processes trip data, calculates ride statistics, and identifies trends.
@@ -50,7 +50,7 @@ Analysis Performed
 *Visualize: Number of Trips per Hour (Line Chart with Peak & Low markers)
 
 
-3. Log Analysis
+**Log Analysis**
 
    
 This project generates log file data, processes logs using regular expressions, and extracts insights.
@@ -68,7 +68,7 @@ Analysis Performed
 Visualize: Log Level Distribution
 
 
-Results & Visualizations
+**Results & Visualizations**
 
 Users vs. Number of Movies Rated (Histogram)
 
