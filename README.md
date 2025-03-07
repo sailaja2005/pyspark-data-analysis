@@ -5,7 +5,7 @@ This repository contains three different PySpark projects focusing on log analys
 Before running the scripts, install the required dependencies:
 pip install pyspark faker plotly kaleido
 
-Movie Ratings Analysis
+1.Movie Ratings Analysis
 
 
 This project simulates movie rating data and performs various analytics.
@@ -13,34 +13,36 @@ This project simulates movie rating data and performs various analytics.
  Analysis Performed
 
  
- Convert timestamps to human-readable format.
- Compute average rating for each movie.
- Identify users who have rated more than 5 movies.
- Find top 5 highest-rated movies.
- Visualize Users vs. Number of Movies Rated.
+ *Convert timestamps to human-readable format.
+ *Compute average rating for each movie.
+ *Identify users who have rated more than 5 movies.
+ *Find top 5 highest-rated movies.
+ *Visualize Users vs. Number of Movies Rated.
 
 
-Log Analysis
+ 2. Trip Data Analysis
+
+
+This project processes trip data, calculating ride statistics and identifying trends.
+
+ Analysis Performed
+
+ 
+*Compute trip duration (EndTime - StartTime).
+* Calculate fare per mile.
+* Identify the top 3 longest trips based on distance.
+* Find peak trip hours by grouping trips by the hour.
+* Visualize: Number of Trips per Hour (Line Chart).
+
+3.Log Analysis
 
 
 This project generates log file data, processes logs using regular expressions, and extracts insights.
 
-Compute trip duration (EndTime - StartTime).
-Calculate fare per mile.
-Identify the top 3 longest trips based on distance.
-Find peak trip hours by grouping trips by the hour.
-Visualize Number of Trips per Hour using a line chart.
-
-
-Log Analysis
-
-
-This project generates log file data, processes logs using regular expressions, and extracts insights.
-
-Extract timestamp, log level, and message.
-Count the occurrences of each log level (INFO, ERROR, etc.).
-Filter and display only ERROR logs.
-Group logs by hour and analyze peak log activity.
+*Extract timestamp, log level, and message.
+*Count the occurrences of each log level (INFO, ERROR, etc.).
+*Filter and display only ERROR logs.
+*Group logs by hour and analyze peak log activity.
 
 Results & Visualizations
 
