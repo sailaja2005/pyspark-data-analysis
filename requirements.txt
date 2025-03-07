@@ -1,0 +1,4 @@
+pyspark
+faker
+plotly
+kaleido
