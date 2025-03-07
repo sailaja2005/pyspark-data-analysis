@@ -6,9 +6,13 @@ Before running the scripts, install the required dependencies:
 pip install pyspark faker plotly kaleido
 
 Movie Ratings Analysis
+
+
 This project simulates movie rating data and performs various analytics.
 
  Analysis Performed
+
+ 
  Convert timestamps to human-readable format.
  Compute average rating for each movie.
  Identify users who have rated more than 5 movies.
@@ -17,6 +21,8 @@ This project simulates movie rating data and performs various analytics.
 
 
 Log Analysis
+
+
 This project generates log file data, processes logs using regular expressions, and extracts insights.
 
 Compute trip duration (EndTime - StartTime).
@@ -27,6 +33,8 @@ Visualize Number of Trips per Hour using a line chart.
 
 
 Log Analysis
+
+
 This project generates log file data, processes logs using regular expressions, and extracts insights.
 
 Extract timestamp, log level, and message.
@@ -35,6 +43,8 @@ Filter and display only ERROR logs.
 Group logs by hour and analyze peak log activity.
 
 Results & Visualizations
+
+
 Users vs. Number of Movies Rated (Histogram)
 Trips per Hour (Line Chart with Peak & Low markers)
 Log Level Distribution
