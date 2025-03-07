@@ -14,9 +14,13 @@ This project simulates movie rating data and performs various analytics.
 
  
  *Convert timestamps to human-readable format.
+ 
  *Compute average rating for each movie.
+ 
  *Identify users who have rated more than 5 movies.
+ 
  *Find top 5 highest-rated movies.
+ 
  *Visualize Users vs. Number of Movies Rated.
 
 
@@ -29,9 +33,13 @@ This project processes trip data, calculating ride statistics and identifying tr
 
  
 *Compute trip duration (EndTime - StartTime).
+
 * Calculate fare per mile.
+
 * Identify the top 3 longest trips based on distance.
+  
 * Find peak trip hours by grouping trips by the hour.
+  
 * Visualize: Number of Trips per Hour (Line Chart).
 
 3.Log Analysis
@@ -40,8 +48,11 @@ This project processes trip data, calculating ride statistics and identifying tr
 This project generates log file data, processes logs using regular expressions, and extracts insights.
 
 *Extract timestamp, log level, and message.
+
 *Count the occurrences of each log level (INFO, ERROR, etc.).
+
 *Filter and display only ERROR logs.
+
 *Group logs by hour and analyze peak log activity.
 
 Results & Visualizations
