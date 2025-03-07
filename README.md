@@ -1,4 +1,6 @@
 PySpark Data Analysis 
+
+
 This repository contains three different PySpark projects focusing on log analysis, movie ratings analysis, and trip data analysis. Each project generates synthetic data, processes it using PySpark, and extracts meaningful insights through transformations, aggregations, and visualizations.
 Before running the scripts, install the required dependencies:
 pip install pyspark faker plotly kaleido
